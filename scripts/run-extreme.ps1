@@ -4,4 +4,4 @@
 # .\scripts\run-extreme.ps1
 
 Set-ExecutionPolicy -Scope Process Bypass -Force
-& "$PSScriptRoot\..\WindowsReclaim.ps1" -Apply -Profile Extreme -RemoveOneDrive -RemoveCopilot -RemoveWidgets -DisableSearchIndexing -DisablePrintSpooler -DisableHibernation -DisableLegacyFeatures -CleanDisk -CleanComponentStore
+& "$PSScriptRoot\..\WindowsDebloat.ps1" -Apply -Profile Extreme -RemoveOneDrive -RemoveCopilot -RemoveWidgets -DisableSearchIndexing -DisablePrintSpooler -DisableHibernation -DisableLegacyFeatures -CleanDisk -CleanComponentStore
