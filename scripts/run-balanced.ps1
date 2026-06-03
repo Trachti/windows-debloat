@@ -3,4 +3,4 @@
 # .\scripts\run-balanced.ps1
 
 Set-ExecutionPolicy -Scope Process Bypass -Force
-& "$PSScriptRoot\..\WindowsReclaim.ps1" -Apply -Profile Balanced -RemoveOneDrive -RemoveCopilot -CleanDisk
+& "$PSScriptRoot\..\WindowsDebloat.ps1" -Apply -Profile Balanced -RemoveOneDrive -RemoveCopilot -CleanDisk
