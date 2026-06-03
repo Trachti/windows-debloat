@@ -1,0 +1,23 @@
+{
+  "Calculator": { "wingetId": "9WZDNCRFHVN5", "source": "msstore", "appx": ["Microsoft.WindowsCalculator"] },
+  "Camera": { "wingetId": "9WZDNCRFJBBG", "source": "msstore", "appx": ["Microsoft.WindowsCamera"] },
+  "Clipchamp": { "wingetId": "9P1J8S7CCWWT", "source": "msstore", "appx": ["Clipchamp.Clipchamp"] },
+  "HEIF": { "wingetId": "9PMMSR1CGPWG", "source": "msstore", "appx": ["Microsoft.HEIFImageExtension"] },
+  "MediaPlayer": { "wingetId": "9WZDNCRFJ3PT", "source": "msstore", "appx": ["Microsoft.ZuneMusic"] },
+  "Notepad": { "wingetId": "9MSMLRH6LZF3", "source": "msstore", "appx": ["Microsoft.WindowsNotepad"] },
+  "OneDrive": { "wingetId": "Microsoft.OneDrive", "source": "winget", "appx": [] },
+  "Outlook": { "wingetId": "9NRX63209R7B", "source": "msstore", "appx": ["Microsoft.OutlookForWindows"] },
+  "Paint": { "wingetId": "9PCFS5B6T72H", "source": "msstore", "appx": ["Microsoft.Paint", "Microsoft.MSPaint"] },
+  "Photos": { "wingetId": "9WZDNCRFJBH4", "source": "msstore", "appx": ["Microsoft.Windows.Photos"] },
+  "PowerAutomate": { "wingetId": "9NFTCH6J7FHV", "source": "msstore", "appx": ["Microsoft.PowerAutomateDesktop"] },
+  "QuickAssist": { "wingetId": "9P7BP5VNWKX5", "source": "msstore", "appx": ["MicrosoftCorporationII.QuickAssist"] },
+  "SnippingTool": { "wingetId": "9MZ95KL8MR0L", "source": "msstore", "appx": ["Microsoft.ScreenSketch"] },
+  "StickyNotes": { "wingetId": "9NBLGGH4QGHW", "source": "msstore", "appx": ["Microsoft.MicrosoftStickyNotes"] },
+  "Store": { "wingetId": "9WZDNCRFJBMP", "source": "msstore", "appx": ["Microsoft.WindowsStore"] },
+  "Teams": { "wingetId": "Microsoft.Teams", "source": "winget", "appx": ["MSTeams", "MicrosoftTeams"] },
+  "Terminal": { "wingetId": "Microsoft.WindowsTerminal", "source": "winget", "appx": ["Microsoft.WindowsTerminal"] },
+  "ToDo": { "wingetId": "9NBLGGH5R558", "source": "msstore", "appx": ["Microsoft.Todos"] },
+  "VP9": { "wingetId": "9N4D0MSMP0PT", "source": "msstore", "appx": ["Microsoft.VP9VideoExtensions"] },
+  "WebP": { "wingetId": "9PG2DK419DRG", "source": "msstore", "appx": ["Microsoft.WebpImageExtension"] },
+  "Xbox": { "wingetId": "9MV0B5HZVK9Z", "source": "msstore", "appx": ["Microsoft.GamingApp", "Microsoft.XboxApp"] }
+}
