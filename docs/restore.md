@@ -1,6 +1,6 @@
 # Restore guide
 
-WindowsReclaim creates a restore manifest for every `-Apply` run. The manifest contains:
+WindowsDebloat creates a restore manifest for every `-Apply` run. The manifest contains:
 
 - Removed Appx package names and local Appx manifest paths when available
 - Removed provisioned Appx package names
@@ -12,19 +12,19 @@ WindowsReclaim creates a restore manifest for every `-Apply` run. The manifest c
 ## Restore apps locally
 
 ```powershell
-.\WindowsReclaim.ps1 -RestoreApps -Apply
+.\WindowsDebloat.ps1 -RestoreApps -Apply
 ```
 
 This uses the newest manifest in:
 
 ```text
-C:\ProgramData\WindowsReclaim\Backups
+C:\ProgramData\WindowsDebloat\Backups
 ```
 
 ## Restore apps from a specific manifest
 
 ```powershell
-.\WindowsReclaim.ps1 -RestoreApps -Apply -RestoreManifest "C:\ProgramData\WindowsReclaim\Backups\WindowsReclaim_YYYYMMDD_HHMMSS.json"
+.\WindowsDebloat.ps1 -RestoreApps -Apply -RestoreManifest "C:\ProgramData\WindowsDebloat\Backups\WindowsDebloat_YYYYMMDD_HHMMSS.json"
 ```
 
 ## Restore with winget fallback
@@ -32,19 +32,19 @@ C:\ProgramData\WindowsReclaim\Backups
 Use this if local Appx payloads are gone:
 
 ```powershell
-.\WindowsReclaim.ps1 -RestoreApps -Apply -UseWingetFallback -AcceptWingetAgreements
+.\WindowsDebloat.ps1 -RestoreApps -Apply -UseWingetFallback -AcceptWingetAgreements
 ```
 
 ## Reinstall specific apps
 
 ```powershell
-.\WindowsReclaim.ps1 -InstallApps Calculator,Photos,Notepad,Store -Apply -UseWingetFallback -AcceptWingetAgreements
+.\WindowsDebloat.ps1 -InstallApps Calculator,Photos,Notepad,Store -Apply -UseWingetFallback -AcceptWingetAgreements
 ```
 
 ## Restore services and tasks
 
 ```powershell
-.\WindowsReclaim.ps1 -RestoreServices -RestoreTasks -Apply -RestoreManifest "C:\ProgramData\WindowsReclaim\Backups\WindowsReclaim_YYYYMMDD_HHMMSS.json"
+.\WindowsDebloat.ps1 -RestoreServices -RestoreTasks -Apply -RestoreManifest "C:\ProgramData\WindowsDebloat\Backups\WindowsDebloat_YYYYMMDD_HHMMSS.json"
 ```
 
 ## Why some apps cannot be restored fully offline
